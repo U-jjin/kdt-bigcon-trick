@@ -28,3 +28,26 @@
 
 <br><br>
 ## 프로젝트 process📑
+### 1. 데이터 전처리
+#### 음식물쓰레기데이터NaN처리
+|   |    |
+|-----|-------|
+|![데이터전처리1-음식물쓰레기데이터NaN처리1](https://user-images.githubusercontent.com/70012637/188682419-683f39c2-bb71-45f9-b283-818ace24c7e1.png)|![데이터전처리2-음식물쓰레기데이터NaN처리 2](https://user-images.githubusercontent.com/70012637/188682422-f79e0a06-d8b8-4456-b4fa-6ce33c91ff88.png)|
+
+
+#### 그외 기타 데이터 NaN처리
+|   |   |   |
+|-----|-----|-----|
+|![데이터전처리3-그외기타데이터NaN처리](https://user-images.githubusercontent.com/70012637/188682424-74b6ce97-6d29-4605-b4b5-937016186617.png)|![데이터전처리4](https://user-images.githubusercontent.com/70012637/188682413-df7be596-0abf-4bb2-93fe-b33e6724e1d5.png)|![데이터전처리5](https://user-images.githubusercontent.com/70012637/188682418-6522cb90-2ddc-490d-800c-ce82d7392794.png)|
+
+#### 모델링 진행전 표준화
+
+|변수 범위 선정|변수 Scaling|
+|---|---|
+|![모델링1-변수선택모델링](https://user-images.githubusercontent.com/70012637/188684810-4c109508-e0bb-40d4-9b22-9b6fa4be2006.png)|![모델링2-모델링을위한변수Scaling](https://user-images.githubusercontent.com/70012637/188684662-bc30919a-5851-4c08-98d1-333d2d7e22b8.png)|
+
+### 2. 데이터 모델링
+#### 중요 변수 선택
+| stepwise | DT,RF,xgboost|
+|-----|------|
+|![모델링3-stepwise](https://user-images.githubusercontent.com/70012637/188684666-f9e9c8f9-9ac6-4b00-81df-462b35196850.png)|![모델링4-변수중요도 DT,RF,xgboost](https://user-images.githubusercontent.com/70012637/188684752-246b3466-5387-4d94-8796-3eb78f8b63cb.png)|
