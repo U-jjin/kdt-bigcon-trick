@@ -65,7 +65,7 @@
 ## 서비스 구현🎁
 
 
-<br<br>
+<br><br>
 
 ## 팀원 소개🙇🏻‍♂️
 |                                   🧏🏻‍♀️[주현정](https://github.com/HyunJung-Eliana)                                    |                                     [송재현](https://github.com/songgplant)                                     |                                        [안유진](www.github.com/U-jjin)                                         |
