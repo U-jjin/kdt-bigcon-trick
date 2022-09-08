@@ -54,7 +54,7 @@
 
 ### 2. 데이터 모델링
 #### 중요 변수 선택
-| stepwise | DT, RF, xgboost|
+| Stepwise | DT, RF, xgboost|
 |-----|------|
 |![모델링3-stepwise](https://user-images.githubusercontent.com/70012637/188684666-f9e9c8f9-9ac6-4b00-81df-462b35196850.png)|![모델링4-변수중요도 DT,RF,xgboost](https://user-images.githubusercontent.com/70012637/188684752-246b3466-5387-4d94-8796-3eb78f8b63cb.png)|
 #### 지역별 배출량 요인 분석 모델링
@@ -69,6 +69,16 @@
 <br><br>
 ## 서비스 구현🎁
 
+### ERD 구성도
+![trickERD](https://user-images.githubusercontent.com/70012637/189114504-782e8b9d-101e-4fd3-935a-271938181bc2.png)
+### 서비스 구성도
+ |로그인 |회원가입|메인 페이지|
+ |---|---|---|
+ |![로그인](https://user-images.githubusercontent.com/70012637/189114515-055e4a98-eed8-44ba-9bb9-2ccc85f73684.png)|![회원가입](https://user-images.githubusercontent.com/70012637/189114498-6e05bfc9-f6fe-440c-b65b-c1be222839b8.png)|![메인 페이지](https://user-images.githubusercontent.com/70012637/189114521-c61f5598-8838-457d-885f-7dbb9e048e5f.png)|
+
+|유저 페이지|환경관리원 페이지|알림 기능|
+|---|---|---|
+|![유저 페이지](https://user-images.githubusercontent.com/70012637/189114528-d7cd0225-f810-49cd-b6f2-a94dd541476e.png)|![마지막 페이지](https://user-images.githubusercontent.com/70012637/189114518-16a38f41-dc3c-499e-8f38-8a01b7337c9b.png)|![알림 기능](https://user-images.githubusercontent.com/70012637/189114526-e6b44bc9-7569-4d5a-8f7b-6d01115c5f2f.png)|
 
 <br><br>
 
