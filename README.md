@@ -89,7 +89,7 @@
 1. MVT(Model, View, Templates) 패턴을 이용한 Rest API 구현
 2. 파이썬 ORM models.py를 사용하여 테이블 구성, MariaDB 연동 및 crud 기능 구현
 2. django.contrib.auth 사용한 로그인 인증 기능 구현
-4. AWS LightSail 환경에서 uWsgi, Ngnix 서버 구축 및 배포
+4. AWS LightSail 환경에서 uWsgi Web Server를 이용하여 배포
 
 **Front-end**
 1. Html BootStrap 템플릿을 이용하여 UI 구성
