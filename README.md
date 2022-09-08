@@ -21,7 +21,7 @@
 
 |    전처리     |                시각화                |       데이터 분석 및 머신러닝       |   배포   |
 | :-----------: | :----------------------------------: | :---------------------------------: | :------: |
-| Pandas, numpy | Matplotlib, Seaborn, Plotly, Tableau | Sklearn, ARIMA, ETS, forecastHybrid | AWS 예정 |
+| Pandas, numpy | Matplotlib, Seaborn, Plotly, Tableau | Sklearn, ARIMA, ETS, forecastHybrid | AWS LightSail |
 | DB구축  |    Web Server    |             개발 도구              |          협업 도구           |
 | MariaDB | Django ver 3.2.4 | jupyter notebook & Colab & pycharm | Zoom & Google Drive & Github |
 
@@ -79,6 +79,22 @@
 |유저 페이지|환경관리원 페이지|알림 기능|
 |---|---|---|
 |![유저 페이지](https://user-images.githubusercontent.com/70012637/189114528-d7cd0225-f810-49cd-b6f2-a94dd541476e.png)|![마지막 페이지](https://user-images.githubusercontent.com/70012637/189114518-16a38f41-dc3c-499e-8f38-8a01b7337c9b.png)|![알림 기능](https://user-images.githubusercontent.com/70012637/189114526-e6b44bc9-7569-4d5a-8f7b-6d01115c5f2f.png)|
+
+### 기술스택
+|Python|Django|JS,HTML,CSS|MySQL|
+|---|---|---|---|
+|![파파이썬](https://user-images.githubusercontent.com/70012637/189125591-10929486-4d87-4b80-bf28-e3fadf43e302.png)|![찐](https://user-images.githubusercontent.com/70012637/189125990-73878d18-e070-46e3-9571-997d0435ccc4.png)|![프론트](https://user-images.githubusercontent.com/70012637/189125367-5d9dd3ed-b126-46cb-83f5-6b2b5bc6841c.jpg)|![돌고래](https://user-images.githubusercontent.com/70012637/189125369-d4519141-8698-4f28-aca9-bcd1f06dbbca.png)|
+
+**Back-end**
+1. MVT(Model, View, Templates) 패턴을 이용한 Rest API 구현
+2. 파이썬 ORM models.py를 사용하여 테이블 구성, MariaDB 연동 및 crud 기능 구현
+2. django.contrib.auth 사용한 로그인 인증 기능 구현
+4. AWS LightSail 환경에서 uWsgi로 배포
+
+**Front-end**
+1. Html BootStrap 템플릿을 이용하여 UI 구성
+2. Jquery, Ajax 를 사용하여 Rest API 구현
+3. chart.js 및 plotly 라이브러리를 사용하여 원형, 바, 꺽은 선 그래프 및 지도 시각화 그래프 구현
 
 <br><br>
 
